@@ -1,0 +1,23 @@
+[book]
+authors = ["despiegk"]
+language = "en"
+multilingual = false
+src = "src"
+title = "DAO"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+
+[output]
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-css = ["././mdbook-admonish.css"]
+
+[preprocessor.classy]
+

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -ex
-source env.sh
+# source env.sh
 
-export PUBSITE='https://github.com/freeflowuniverse/crystaltools/tree/development_a5/wiki_config_simple'
+export PUBSITE='https://github.com/threefoldfoundation/info_dao/tree/main/config'
 
 
 # if [[ "$OSTYPE" == "darwin"* ]]; then
